@@ -36,7 +36,7 @@ typedef NS_ENUM(NSUInteger, ESTaskErrorCode) {
 @property (nullable, retain) id standardError;
 
 // actions
-- (void)launch; // XXX: Deprecated, NS_UNAVAILABLE ?
+- (void)launch DEPRECATED_ATTRIBUTE;
 
 - (BOOL)launch:(NSError **)error;
 
